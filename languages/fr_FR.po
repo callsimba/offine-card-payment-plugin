@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Offline Credit Card Payment\n"
+"POT-Creation-Date: 2017-04-24 00:27+0530\n"
+"PO-Revision-Date: 2017-04-24 00:28+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wc-offline-credit-card-payment.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-offline-credit-card-payment.php:9
+#: class-offline-credit-card-payment.php:11
+#: wc-offline-credit-card-payment.php:24
+msgid "WC Offline Credit Card Payment"
+msgstr "WC hors-ligne Paiement de carte de crédit"
+
+#: class-offline-credit-card-payment.php:10
+#: class-offline-credit-card-payment.php:195
+msgid "Pay via Offline Credit Card."
+msgstr "Pay par carte de crédit hors ligne."
+
+#: class-offline-credit-card-payment.php:66
+#: class-offline-credit-card-payment.php:67
+#: class-offline-credit-card-payment.php:87
+#: class-offline-credit-card-payment.php:117
+#: class-offline-credit-card-payment.php:208
+#: class-offline-credit-card-payment.php:214
+msgid "Card Holder Name"
+msgstr "Nom du titulaire"
+
+#: class-offline-credit-card-payment.php:88
+msgid "Card Number"
+msgstr "Numéro de carte"
+
+#: class-offline-credit-card-payment.php:89
+#: class-offline-credit-card-payment.php:217
+#: class-offline-credit-card-payment.php:220
+msgid "Card Type"
+msgstr "Type de carte"
+
+#: class-offline-credit-card-payment.php:90
+msgid "Expiry (MM/YY)"
+msgstr "Expiration (MM / AA)"
+
+#: class-offline-credit-card-payment.php:91
+msgid "Card Code"
+msgstr "Code de carte"
+
+#: class-offline-credit-card-payment.php:128
+msgid "American Express"
+msgstr "American Express"
+
+#: class-offline-credit-card-payment.php:129
+msgid "Diners Club Carte Blanche"
+msgstr "Diners Club Carte Blanche"
+
+#: class-offline-credit-card-payment.php:130
+msgid "Diners Club"
+msgstr "Diners Club"
+
+#: class-offline-credit-card-payment.php:131
+msgid "Discover"
+msgstr "Découvrir"
+
+#: class-offline-credit-card-payment.php:132
+msgid "Diners Club Enroute"
+msgstr "Diners Club Enroute"
+
+#: class-offline-credit-card-payment.php:133
+msgid "JCB"
+msgstr "JCB"
+
+#: class-offline-credit-card-payment.php:134
+msgid "Maestro"
+msgstr "Maestro"
+
+#: class-offline-credit-card-payment.php:135
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: class-offline-credit-card-payment.php:136
+msgid "Solo"
+msgstr "Solo"
+
+#: class-offline-credit-card-payment.php:137
+msgid "Switch"
+msgstr "Commutateur"
+
+#: class-offline-credit-card-payment.php:138
+msgid "VISA"
+msgstr "VISA"
+
+#: class-offline-credit-card-payment.php:139
+msgid "VISA Electron"
+msgstr "Visa Electron"
+
+#: class-offline-credit-card-payment.php:140
+msgid "LaserCard"
+msgstr "Carte laser"
+
+#: class-offline-credit-card-payment.php:143
+msgid "Select Card Type"
+msgstr "Sélectionnez le type de carte"
+
+#: class-offline-credit-card-payment.php:153
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: class-offline-credit-card-payment.php:157
+msgid "CVC"
+msgstr "CVC"
+
+#: class-offline-credit-card-payment.php:179
+msgid "Enable / Disable"
+msgstr "Activer désactiver"
+
+#: class-offline-credit-card-payment.php:180
+msgid "Enable this payment gateway"
+msgstr "Activer cette passerelle de paiement"
+
+#: class-offline-credit-card-payment.php:182
+msgid "Enable this payment gateway."
+msgstr "Activer cette passerelle de paiement"
+
+#: class-offline-credit-card-payment.php:186
+msgid "Title"
+msgstr "Titre"
+
+#: class-offline-credit-card-payment.php:188
+msgid "Payment title the customer will see during the checkout process."
+msgstr "Titre de paiement que le client verra lors du processus de caisse."
+
+#: class-offline-credit-card-payment.php:189
+msgid "Offline Credit Card"
+msgstr "Carte de crédit hors ligne"
+
+#: class-offline-credit-card-payment.php:192
+msgid "Description"
+msgstr "La description"
+
+#: class-offline-credit-card-payment.php:194
+msgid "Payment description the customer will see during the checkout process."
+msgstr ""
+"Description du paiement que le client verra au cours du processus de caisse."
+
+#: class-offline-credit-card-payment.php:199
+msgid "Password for descrypt credit card"
+msgstr "Mot de passe pour décrypter la carte de crédit"
+
+#: class-offline-credit-card-payment.php:201
+msgid "This option is used to descrpt credit card details on order."
+msgstr ""
+"Cette option permet de décrypter les détails de la carte de crédit sur "
+"commande."
+
+#: class-offline-credit-card-payment.php:202
+msgid "Admin@123"
+msgstr ""
+
+#: class-offline-credit-card-payment.php:205
+#: class-offline-credit-card-payment.php:223
+msgid "Card Holder Text"
+msgstr "Texte du titulaire de la carte"
+
+#: class-offline-credit-card-payment.php:207
+msgid "This text is display on card holder name label on checkout page."
+msgstr ""
+"Ce texte est affiché sur l'étiquette du titulaire de la carte à la page de "
+"paiement."
+
+#: class-offline-credit-card-payment.php:211
+msgid "Card Account Nomber"
+msgstr "Numéro de compte de la carte"
+
+#: class-offline-credit-card-payment.php:213
+#: class-offline-credit-card-payment.php:219
+msgid "This text is display on account nomber label on checkout page."
+msgstr ""
+"Ce texte s'affiche sur l'étiquette du numéro de compte à la page de caisse."
+
+#: class-offline-credit-card-payment.php:225
+msgid "This text is display on expiry date label on checkout page."
+msgstr ""
+"Ce texte est affiché à l'étiquette de la date de péremption sur la page de "
+"caisse."
+
+#: class-offline-credit-card-payment.php:226
+msgid "Card Expiry Date"
+msgstr "date d'expiration de la carte"
+
+#: class-offline-credit-card-payment.php:229
+#: class-offline-credit-card-payment.php:232
+msgid "Card CVC Nomber"
+msgstr "Numéro de carte CVV"
+
+#: class-offline-credit-card-payment.php:231
+msgid "This text is display on card cvc label on checkout page."
+msgstr ""
+"Ce texte est affiché sur l'étiquette cvc de la carte sur la page de caisse."
+
+#: class-offline-credit-card-payment.php:244
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL "
+"certificate on your checkout page. Please ensure that you have a valid SSL "
+"certificate and that you are <a href='%s'>forcing the checkout pages to be "
+"secured.</a>"
+msgstr ""
+
+#: class-offline-credit-card-payment.php:257
+msgid "<strong>Card Holder Name</strong> is required."
+msgstr "<Strong> Nom du titulaire de la carte </ strong> est requis."
+
+#: class-offline-credit-card-payment.php:262
+msgid "<strong>Card Number</strong> is required."
+msgstr "<Strong> Numéro de carte </ strong> est requis."
+
+#: class-offline-credit-card-payment.php:265
+msgid "<strong>Card Number</strong> length is not valid."
+msgstr "<Strong> Nombre de carte </ strong> n'est pas valide."
+
+#: class-offline-credit-card-payment.php:268
+msgid ""
+"<strong>Card Number</strong> is wrong, Please enter valid credit card number."
+msgstr ""
+"<Strong> Numéro de carte </ strong> est incorrect, entrez un numéro de carte "
+"de crédit valide."
+
+#: class-offline-credit-card-payment.php:273
+msgid "<strong>Card Expiry</strong> is required."
+msgstr "<Strong> L'expiration de la carte </ strong> est nécessaire."
+
+#: class-offline-credit-card-payment.php:278
+msgid "<strong>Card Type</strong> is required."
+msgstr "<Strong> Type de carte </ strong> est requis."
+
+#: class-offline-credit-card-payment.php:283
+msgid "<strong>Card CVV</strong> is required."
+msgstr "<Strong> carte CVV </ strong> est nécessaire."
+
+#: class-offline-credit-card-payment.php:295
+msgid "Order placed using offline credit card."
+msgstr "Commande placée à l'aide d'une carte de crédit hors ligne."
+
+#: wc-offline-credit-card-payment.php:73 wc-offline-credit-card-payment.php:79
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wc-offline-credit-card-payment.php:107
+msgid "WC Offline Credit Card Details"
+msgstr "WC Détails de la carte de crédit hors ligne"
+
+#: wc-offline-credit-card-payment.php:117
+msgid "Setting"
+msgstr "Réglage"
+
+#: wc-offline-credit-card-payment.php:160
+msgid "Decryption Password"
+msgstr "Mot de passe de décryptage"
+
+#: wc-offline-credit-card-payment.php:161
+msgid "Decrypt Credit Card Details"
+msgstr "Décrypter les détails de la carte de crédit"
+
+#: wc-offline-credit-card-payment.php:264
+msgid "Password is required."
+msgstr "Mot de passe requis."
+
+#: wc-offline-credit-card-payment.php:269
+msgid "Invalid order."
+msgstr "Ordre non valide."
+
+#: wc-offline-credit-card-payment.php:277
+msgid "You are not allowed to decrypt data."
+msgstr "Vous n'êtes pas autorisé à décrypter des données."
+
+#: wc-offline-credit-card-payment.php:284
+msgid ""
+"You have not set decryption password. To decrypt data you must set password "
+"first from your profile."
+msgstr ""
+"Vous n'avez pas configuré le mot de passe de décryptage. Pour décrypter les "
+"données, vous devez d'abord définir le mot de passe dans votre profil."
+
+#: wc-offline-credit-card-payment.php:289
+msgid "Incorrect password."
+msgstr "Mot de passe incorrect."
+
+#: wc-offline-credit-card-payment.php:306
+msgid "Error occured while decrypting."
+msgstr "Une erreur s'est produite lors du décryptage."
+
+#: wc-offline-credit-card-payment.php:311
+msgid "Invalid Request."
+msgstr "Requête invalide."
+
+#: wc-offline-credit-card-payment.php:322
+msgid "Password"
+msgstr "Mot de passe"
+
+#: wc-offline-credit-card-payment.php:325
+msgid "This password will be used decrypting credit card data on order."
+msgstr ""
+"Ce mot de passe sera utilisé pour déchiffrer les données de la carte de "
+"crédit sur commande."
+
+#: wc-offline-credit-card-payment.php:377
+msgid "<b>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Offline Credit Card Payment"
+msgstr "Paiement par carte de crédit hors ligne de WooCommerce"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://plugins.wrpsolution.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Woocomemrce payment gateway for accepting offline credit card payments"
+msgstr ""
+"Passerelle de paiement Woocommerce pour accepter les paiements par carte de "
+"crédit hors ligne"
+
+#. Author of the plugin/theme
+msgid "Naresh Goyani"
+msgstr ""
+
+#~ msgid "WC offline credit card payments"
+#~ msgstr "Paiements par carte de crédit hors ligne sans fil"

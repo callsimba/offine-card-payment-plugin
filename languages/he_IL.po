@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Offline Credit Card Payment\n"
+"POT-Creation-Date: 2017-04-24 00:08+0530\n"
+"PO-Revision-Date: 2017-04-24 00:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wc-offline-credit-card-payment.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-offline-credit-card-payment.php:9
+#: class-offline-credit-card-payment.php:11
+#: wc-offline-credit-card-payment.php:24
+msgid "WC Offline Credit Card Payment"
+msgstr "תשלום כרטיס אשראי לא מקוון כרטיס אשראי"
+
+#: class-offline-credit-card-payment.php:10
+#: class-offline-credit-card-payment.php:195
+msgid "Pay via Offline Credit Card."
+msgstr "שלם באמצעות כרטיס אשראי לא מקוון."
+
+#: class-offline-credit-card-payment.php:66
+#: class-offline-credit-card-payment.php:67
+#: class-offline-credit-card-payment.php:87
+#: class-offline-credit-card-payment.php:117
+#: class-offline-credit-card-payment.php:208
+#: class-offline-credit-card-payment.php:214
+msgid "Card Holder Name"
+msgstr "שם בעל הכרטיס"
+
+#: class-offline-credit-card-payment.php:88
+msgid "Card Number"
+msgstr "מספר כרטיס"
+
+#: class-offline-credit-card-payment.php:89
+#: class-offline-credit-card-payment.php:217
+#: class-offline-credit-card-payment.php:220
+msgid "Card Type"
+msgstr "סוג כרטיס"
+
+#: class-offline-credit-card-payment.php:90
+msgid "Expiry (MM/YY)"
+msgstr "תאריך תפוגה (MM / YY)"
+
+#: class-offline-credit-card-payment.php:91
+msgid "Card Code"
+msgstr "קוד כרטיס"
+
+#: class-offline-credit-card-payment.php:128
+msgid "American Express"
+msgstr "אמריקן אקספרס"
+
+#: class-offline-credit-card-payment.php:129
+msgid "Diners Club Carte Blanche"
+msgstr "דיינרס קלאב"
+
+#: class-offline-credit-card-payment.php:130
+msgid "Diners Club"
+msgstr "מועדון דיינרס"
+
+#: class-offline-credit-card-payment.php:131
+msgid "Discover"
+msgstr "לְגַלוֹת"
+
+#: class-offline-credit-card-payment.php:132
+msgid "Diners Club Enroute"
+msgstr "דיינרס קלאב אנרוטה"
+
+#: class-offline-credit-card-payment.php:133
+msgid "JCB"
+msgstr "JCB"
+
+#: class-offline-credit-card-payment.php:134
+msgid "Maestro"
+msgstr "מָאֵסטרוֹ"
+
+#: class-offline-credit-card-payment.php:135
+msgid "MasterCard"
+msgstr "מאסטרקארד"
+
+#: class-offline-credit-card-payment.php:136
+msgid "Solo"
+msgstr "סוֹלוֹ"
+
+#: class-offline-credit-card-payment.php:137
+msgid "Switch"
+msgstr "החלף"
+
+#: class-offline-credit-card-payment.php:138
+msgid "VISA"
+msgstr "וִיזָה"
+
+#: class-offline-credit-card-payment.php:139
+msgid "VISA Electron"
+msgstr "VISA אלקטרון"
+
+#: class-offline-credit-card-payment.php:140
+msgid "LaserCard"
+msgstr "לייזר"
+
+#: class-offline-credit-card-payment.php:143
+msgid "Select Card Type"
+msgstr "בחר סוג כרטיס"
+
+#: class-offline-credit-card-payment.php:153
+msgid "MM / YY"
+msgstr "חודש שנה"
+
+#: class-offline-credit-card-payment.php:157
+msgid "CVC"
+msgstr "CVC"
+
+#: class-offline-credit-card-payment.php:179
+msgid "Enable / Disable"
+msgstr "הפעל / השבת"
+
+#: class-offline-credit-card-payment.php:180
+msgid "Enable this payment gateway"
+msgstr "הפעל שער תשלום זה"
+
+#: class-offline-credit-card-payment.php:182
+msgid "Enable this payment gateway."
+msgstr "הפעל שער תשלום זה."
+
+#: class-offline-credit-card-payment.php:186
+msgid "Title"
+msgstr "כותרת"
+
+#: class-offline-credit-card-payment.php:188
+msgid "Payment title the customer will see during the checkout process."
+msgstr "כותרת התשלום שהלקוח יראה במהלך תהליך התשלום."
+
+#: class-offline-credit-card-payment.php:189
+msgid "Offline Credit Card"
+msgstr "כרטיס אשראי לא מקוון"
+
+#: class-offline-credit-card-payment.php:192
+msgid "Description"
+msgstr "תאור"
+
+#: class-offline-credit-card-payment.php:194
+msgid "Payment description the customer will see during the checkout process."
+msgstr "תיאור התשלום שהלקוח יראה במהלך תהליך התשלום."
+
+#: class-offline-credit-card-payment.php:199
+msgid "Password for descrypt credit card"
+msgstr "סיסמה עבור פענוח כרטיס אשראי"
+
+#: class-offline-credit-card-payment.php:201
+msgid "This option is used to descrpt credit card details on order."
+msgstr "אפשרות זו משמשת לפענוח פרטי כרטיס אשראי בהזמנה."
+
+#: class-offline-credit-card-payment.php:202
+msgid "Admin@123"
+msgstr ""
+
+#: class-offline-credit-card-payment.php:205
+#: class-offline-credit-card-payment.php:223
+msgid "Card Holder Text"
+msgstr "טקסט מחזיק הכרטיס"
+
+#: class-offline-credit-card-payment.php:207
+msgid "This text is display on card holder name label on checkout page."
+msgstr "טקסט זה מוצג בתווית שם בעל הכרטיס בדף היציאה."
+
+#: class-offline-credit-card-payment.php:211
+msgid "Card Account Nomber"
+msgstr "מספר חשבון כרטיס"
+
+#: class-offline-credit-card-payment.php:213
+#: class-offline-credit-card-payment.php:219
+msgid "This text is display on account nomber label on checkout page."
+msgstr "טקסט זה מוצג בתווית מספר החשבון בדף היציאה."
+
+#: class-offline-credit-card-payment.php:225
+msgid "This text is display on expiry date label on checkout page."
+msgstr "טקסט זה מוצג בתווית תאריך תפוגה בדף היציאה."
+
+#: class-offline-credit-card-payment.php:226
+msgid "Card Expiry Date"
+msgstr "תאריך תפוגת הכרטיס"
+
+#: class-offline-credit-card-payment.php:229
+#: class-offline-credit-card-payment.php:232
+msgid "Card CVC Nomber"
+msgstr "מספר CVV של כרטיס"
+
+#: class-offline-credit-card-payment.php:231
+msgid "This text is display on card cvc label on checkout page."
+msgstr "טקסט זה מוצג בתווית כרטיס Cvc בדף היציאה."
+
+#: class-offline-credit-card-payment.php:244
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL "
+"certificate on your checkout page. Please ensure that you have a valid SSL "
+"certificate and that you are <a href='%s'>forcing the checkout pages to be "
+"secured.</a>"
+msgstr ""
+
+#: class-offline-credit-card-payment.php:257
+msgid "<strong>Card Holder Name</strong> is required."
+msgstr "<Strong> שם מחזיק הכרטיס </ strong> נדרש."
+
+#: class-offline-credit-card-payment.php:262
+msgid "<strong>Card Number</strong> is required."
+msgstr "<Strong> מספר כרטיס </ strong> נדרש."
+
+#: class-offline-credit-card-payment.php:265
+msgid "<strong>Card Number</strong> length is not valid."
+msgstr "<Strong> מספר כרטיס </ strong> אורך אינו חוקי."
+
+#: class-offline-credit-card-payment.php:268
+msgid ""
+"<strong>Card Number</strong> is wrong, Please enter valid credit card number."
+msgstr "<Strong> מספר כרטיס </ strong> שגוי, הזן מספר כרטיס אשראי חוקי."
+
+#: class-offline-credit-card-payment.php:273
+msgid "<strong>Card Expiry</strong> is required."
+msgstr "<Strong> תוקף הכרטיס </ strong> נדרש."
+
+#: class-offline-credit-card-payment.php:278
+msgid "<strong>Card Type</strong> is required."
+msgstr "<Strong> סוג כרטיס </ strong> נדרש."
+
+#: class-offline-credit-card-payment.php:283
+msgid "<strong>Card CVV</strong> is required."
+msgstr "<Strong> כרטיס CVV </ strong> נדרש."
+
+#: class-offline-credit-card-payment.php:295
+msgid "Order placed using offline credit card."
+msgstr "ההזמנה בוצעה באמצעות כרטיס אשראי לא מקוון."
+
+#: wc-offline-credit-card-payment.php:73 wc-offline-credit-card-payment.php:79
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wc-offline-credit-card-payment.php:107
+msgid "WC Offline Credit Card Details"
+msgstr "WC כרטיס אשראי פרטי כרטיס אשראי"
+
+#: wc-offline-credit-card-payment.php:117
+msgid "Setting"
+msgstr "הגדרה"
+
+#: wc-offline-credit-card-payment.php:160
+msgid "Decryption Password"
+msgstr "סיסמת פענוח"
+
+#: wc-offline-credit-card-payment.php:161
+msgid "Decrypt Credit Card Details"
+msgstr "פענוח כרטיס אשראי פרטים"
+
+#: wc-offline-credit-card-payment.php:264
+msgid "Password is required."
+msgstr "דרושה סיסמא."
+
+#: wc-offline-credit-card-payment.php:269
+msgid "Invalid order."
+msgstr "הזמנה לא חוקית."
+
+#: wc-offline-credit-card-payment.php:277
+msgid "You are not allowed to decrypt data."
+msgstr "אינך רשאי לפענח נתונים."
+
+#: wc-offline-credit-card-payment.php:284
+msgid ""
+"You have not set decryption password. To decrypt data you must set password "
+"first from your profile."
+msgstr ""
+"לא הגדרת סיסמת פענוח. כדי לפענח נתונים עליך להגדיר תחילה את הסיסמה מהפרופיל "
+"שלך."
+
+#: wc-offline-credit-card-payment.php:289
+msgid "Incorrect password."
+msgstr "סיסמא לא נכונה."
+
+#: wc-offline-credit-card-payment.php:306
+msgid "Error occured while decrypting."
+msgstr "אירעה שגיאה בעת פענוח."
+
+#: wc-offline-credit-card-payment.php:311
+msgid "Invalid Request."
+msgstr "בקשה שגויה."
+
+#: wc-offline-credit-card-payment.php:322
+msgid "Password"
+msgstr "סיסמה"
+
+#: wc-offline-credit-card-payment.php:325
+msgid "This password will be used decrypting credit card data on order."
+msgstr "סיסמה זו תשמש פענוח נתוני כרטיס האשראי על מנת."
+
+#: wc-offline-credit-card-payment.php:377
+msgid "<b>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Offline Credit Card Payment"
+msgstr "כרטיס אשראי"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://plugins.wrpsolution.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Woocomemrce payment gateway for accepting offline credit card payments"
+msgstr "שער תשלום של Woocommerce לקבלת תשלומים לא מקוונים בכרטיס אשראי"
+
+#. Author of the plugin/theme
+msgid "Naresh Goyani"
+msgstr ""
+
+#~ msgid "WC offline credit card payments"
+#~ msgstr "תשלום כרטיס אשראי לא מקוון כרטיס אשראי"
